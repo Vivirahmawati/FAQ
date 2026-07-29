@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pusat informasi layanan, regulasi, dan administrasi kepegawaian BPKP.">
+  <title>Dashboard FAQ Kepegawaian BPKP</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="institution-bar">
+      <div class="institution-inner">
+        <a class="brand" href="#" aria-label="Beranda Dashboard FAQ BPKP">
+          <img src="assets/logo-bpkp.png" alt="Logo BPKP">
+          <span class="brand-divider" aria-hidden="true"></span>
+          <span class="brand-name">Badan Pengawas Keuangan<br>dan Pembangunan</span>
+        </a>
+        <span class="official-label"><i class="fa-solid fa-shield-halved"></i> Portal Informasi Resmi</span>
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <span class="eyebrow">Layanan Informasi Kepegawaian</span>
+          <h1>Pusat Informasi dan FAQ Kepegawaian</h1>
+          <p>Temukan jawaban, regulasi, dan informasi administrasi pegawai secara cepat dan terarah.</p>
+        </div>
+
+        <div class="search-panel">
+          <label for="searchInput">Apa informasi yang Anda cari?</label>
+          <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+            <input type="search" id="searchInput" placeholder="Cari pertanyaan, layanan, atau kata kunci..." autocomplete="off">
+            <span class="search-hint">FAQ</span>
+          </div>
+          <p class="search-note"><i class="fa-solid fa-circle-info"></i> Gunakan kata kunci singkat, misalnya “cuti”, “kinerja”, atau “kompetensi”.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section categories-section" aria-labelledby="categoryTitle">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">Layanan Kepegawaian</span>
+          <h2 id="categoryTitle">Telusuri Berdasarkan Kategori</h2>
+        </div>
+        <p>Pilih kategori untuk menampilkan pertanyaan yang sesuai dengan kebutuhan Anda.</p>
+      </div>
+
+      <div class="category-grid">
+        <button class="category-card" type="button" onclick="showCategory('Perencanaan Kebutuhan')">
+          <span class="category-icon"><i class="fa-solid fa-clipboard-list"></i></span>
+          <span class="category-label">Perencanaan Kebutuhan</span>
+          <i class="fa-solid fa-arrow-right card-arrow" aria-hidden="true"></i>
+        </button>
+        <button class="category-card" type="button" onclick="showCategory('Pengadaan')">
+          <span class="category-icon"><i class="fa-solid fa-user-plus"></i></span>
+          <span class="category-label">Pengadaan</span>
+          <i class="fa-solid fa-arrow-right card-arrow" aria-hidden="true"></i>
+        </button>
+        <button class="category-card" type="button" onclick="showCategory('Penguatan Budaya Kerja & Citra')">
+          <span class="category-icon"><i class="fa-solid fa-building-columns"></i></span>
+          <span class="category-label">Penguatan Budaya Kerja &amp; Citra</span>
+          <i class="fa-solid fa-arrow-right card-arrow" aria-hidden="true"></i>
+        </button>
+        <button class="category-card" type="button" onclick="showCategory('Pengelolaan Kinerja')">
+          <span class="category-icon"><i class="fa-solid fa-chart-line"></i></span>
+          <span class="category-label">Pengelolaan Kinerja</span>
+          <i class="fa-solid fa-arrow-right card-arrow" aria-hidden="true"></i>
+        </button>
+        <button class="category-card" type="button" onclick="showCategory('Pengembangan Talenta & Karier')">
+          <span class="category-icon"><i class="fa-solid fa-ranking-star"></i></span>
+          <span class="category-label">Pengembangan Talenta &amp; Karier</span>
+          <i class="fa-solid fa-arrow-right card-arrow" aria-hidden="true"></i>
+        </button>
+        <button class="category-card" type="button" onclick="showCategory('Pengembangan Kompetensi')">
+          <span class="category-icon"><i class="fa-solid fa-graduation-cap"></i></span>
+          <span class="category-label">Pengembangan Kompetensi</span>
+          <i class="fa-solid fa-arrow-right card-arrow" aria-hidden="true"></i>
+        </button>
+        <button class="category-card" type="button" onclick="showCategory('Pemberian Penghargaan & Pengakuan')">
+          <span class="category-icon"><i class="fa-solid fa-award"></i></span>
+          <span class="category-label">Penghargaan &amp; Pengakuan</span>
+          <i class="fa-solid fa-arrow-right card-arrow" aria-hidden="true"></i>
+        </button>
+        <button class="category-card" type="button" onclick="showCategory('Pemberhentian')">
+          <span class="category-icon"><i class="fa-solid fa-user-slash"></i></span>
+          <span class="category-label">Pemberhentian</span>
+          <i class="fa-solid fa-arrow-right card-arrow" aria-hidden="true"></i>
+        </button>
+      </div>
+    </section>
+
+    <section class="faq-area" aria-labelledby="faqTitle">
+      <div class="section faq-section">
+        <div class="faq-heading">
+          <div>
+            <span class="section-kicker">Pusat Bantuan</span>
+            <h2 id="faqTitle">Pertanyaan Umum</h2>
+          </div>
+          <span class="faq-status"><i class="fa-regular fa-circle-question"></i> Informasi Kepegawaian</span>
+        </div>
+        <div id="faqContainer" class="faq-list" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="references" aria-labelledby="referenceTitle">
+      <div class="section">
+        <div class="section-heading reference-heading">
+          <div>
+            <span class="section-kicker">Dokumen Resmi</span>
+            <h2 id="referenceTitle">Referensi Regulasi</h2>
+          </div>
+          <p>Dokumen dibuka dalam format PDF pada tab baru.</p>
+        </div>
+
+        <div class="regulation-grid">
+          <a class="regulation-card" href="regulasi/Peraturan_BKN_7_2022.pdf" target="_blank" rel="noopener">
+            <span class="pdf-icon"><i class="fa-solid fa-file-pdf"></i></span>
+            <span class="regulation-content">
+              <span class="document-type">Peraturan BKN</span>
+              <strong>Peraturan BKN Nomor 7 Tahun 2022</strong>
+              <span>Cuti PPPK</span>
+            </span>
+            <span class="pdf-badge">PDF <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </a>
+          <a class="regulation-card" href="regulasi/Perban_BKN_24_2017.pdf" target="_blank" rel="noopener">
+            <span class="pdf-icon"><i class="fa-solid fa-file-pdf"></i></span>
+            <span class="regulation-content">
+              <span class="document-type">Peraturan BKN</span>
+              <strong>Perban BKN Nomor 24 Tahun 2017</strong>
+              <span>Tata Cara Pemberian Cuti PNS</span>
+            </span>
+            <span class="pdf-badge">PDF <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </a>
+          <a class="regulation-card" href="regulasi/PP_35_2010.pdf" target="_blank" rel="noopener">
+            <span class="pdf-icon"><i class="fa-solid fa-file-pdf"></i></span>
+            <span class="regulation-content">
+              <span class="document-type">Peraturan Pemerintah</span>
+              <strong>PP Nomor 35 Tahun 2010</strong>
+              <span>Penghargaan Pegawai</span>
+            </span>
+            <span class="pdf-badge">PDF <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </a>
+          <a class="regulation-card" href="regulasi/peraturan-bpkp-no-3-tahun-2024.pdf" target="_blank" rel="noopener">
+            <span class="pdf-icon"><i class="fa-solid fa-file-pdf"></i></span>
+            <span class="regulation-content">
+              <span class="document-type">Peraturan BPKP</span>
+              <strong>Peraturan BPKP Nomor 3 Tahun 2024</strong>
+              <span>Pelaksana Harian dan Pelaksana Tugas</span>
+            </span>
+            <span class="pdf-badge">PDF <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-accent"></div>
+    <div class="section footer-main">
+      <div class="footer-brand">
+        <img src="assets/logo-bpkp.png" alt="Logo BPKP">
+        <div>
+          <strong>Dashboard FAQ Kepegawaian</strong>
+          <span>Badan Pengawas Keuangan dan Pembangunan</span>
+        </div>
+      </div>
+      <div class="footer-meta">
+        <span><i class="fa-solid fa-shield-halved"></i> Portal Informasi Resmi</span>
+        <p>&copy; 2026 BPKP. Seluruh hak cipta dilindungi.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/faq-data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
