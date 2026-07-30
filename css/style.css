@@ -96,6 +96,32 @@ a {
   letter-spacing: .1px;
 }
 
+/* Logo Biro SDM */
+.sdm-brand {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.sdm-brand img {
+  display: block;
+  width: 70px;
+  height: auto;
+  filter: drop-shadow(0 2px 2px rgba(10, 35, 66, .08));
+}
+
+.sdm-divider {
+  width: 1px;
+  height: 48px;
+  background: #aebcca;
+}
+
+.sdm-name {
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.35;
+}
 .official-label {
   display: inline-flex;
   align-items: center;
@@ -292,8 +318,8 @@ a {
 
 .category-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
 }
 
 .category-card {
@@ -347,6 +373,12 @@ a {
   border-radius: 6px;
   color: var(--blue-700);
   font-size: 19px;
+}
+
+.sdm-icon img {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
 }
 
 .category-label {

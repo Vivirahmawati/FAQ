@@ -34,21 +34,31 @@ container.innerHTML += `
 
 <button class="question" type="button" aria-expanded="false">
 
-
 ${item.pertanyaan}
 
-
 <span aria-hidden="true">
-
 +
-
 </span>
 
 </button>
 
+
 <div class="answer">
 
+<p>
 ${item.jawaban}
+</p>
+<div class="faq-regulation">
+
+<i class="fa-solid fa-scale-balanced"></i>
+
+<strong>Dasar Aturan:</strong>
+
+<br>
+
+${item.dasar || "Tidak terdapat dasar aturan"}
+
+</div>
 
 </div>
 

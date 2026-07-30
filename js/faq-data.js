@@ -2,277 +2,185 @@ const faqData = [
 
 /*
 =====================================================
-1. PERENCANAAN KEBUTUHAN
+9. LAYANAN SDM
 =====================================================
 */
 
-{
-kategori:"Perencanaan Kebutuhan",
-
-icon:"fa-clipboard-list",
-
-pertanyaan:
-"Bagaimana proses perencanaan kebutuhan pegawai ASN?",
-
-jawaban:
-"Perencanaan kebutuhan pegawai ASN dilakukan berdasarkan analisis kebutuhan organisasi, beban kerja, dan kebutuhan sumber daya manusia sesuai ketentuan yang berlaku."
-
-},
-
-
-/*
-=====================================================
-2. PENGADAAN
-=====================================================
-*/
 
 {
-kategori:"Pengadaan",
+kategori:"Layanan SDM",
 
-icon:"fa-user-plus",
+icon:"logo-sdm",
 
 pertanyaan:
-"Apakah PPPK yang baru diangkat dapat mengambil cuti melahirkan?",
+"Apakah pengajuan izin ke luar negeri untuk kepentingan pribadi wajib mengajukan cuti terlebih dahulu?",
 
 jawaban:
-"PPPK dapat mengambil cuti melahirkan sesuai ketentuan Peraturan BKN Nomor 7 Tahun 2022."
+"Secara umum untuk kegiatan yang dilakukan pada masa cuti, pegawai mengajukan cuti/izin terlebih dahulu. Namun, mekanismenya dikembalikan pada ketentuan/kebijakan di Unit Kerja / Perwakilan masing-masing.",
 
+dasar:
+"Kebijakan Internal Unit Kerja / Perwakilan"
 },
 
 
 {
-kategori:"Pengadaan",
+kategori:"Layanan SDM",
 
-icon:"fa-user-plus",
+icon:"logo-sdm",
 
 pertanyaan:
-"Apakah PPPK yang menikah dapat menggunakan cuti?",
+"Apa saja dokumen persyaratan untuk pengajuan izin ke luar negeri untuk urusan pribadi?",
 
 jawaban:
-"PPPK dapat menggunakan cuti sesuai ketentuan yang berlaku."
+"Surat permohonan yang ditandatangani pegawai bersangkutan dan Surat Pengantar yang ditandatangani Pejabat Eselon II (Format dapat diunduh pada MAP/Izin Luar Negeri dan diunggah kembali).",
 
+dasar:
+"SOP Izin Luar Negeri Urusan Pribadi"
 },
 
 
 {
-kategori:"Pengadaan",
+kategori:"Layanan SDM",
 
-icon:"fa-user-plus",
+icon:"logo-sdm",
 
 pertanyaan:
-"Apakah pegawai yang sudah bercerai dan menikah kembali perlu melampirkan laporan pernikahan kedua?",
+"Apa saja dokumen persyaratan pengajuan surat pengantar permohonan persetujuan izin ke luar negeri, Paspor Dinas, Exit Permit, dan Rekomendasi Visa?",
 
 jawaban:
-"Pegawai perlu melampirkan laporan pernikahan kedua sesuai format yang telah ditentukan."
+"Melampirkan SPPTB, Letter of Acceptance (LOA), dan Surat Sponsorship.",
 
+dasar:
+"Ketentuan Perjalanan Dinas Luar Negeri KTLN Kemensesneg & Kemenlu RI"
 },
 
 
 {
-kategori:"Pengadaan",
+kategori:"Layanan SDM",
 
-icon:"fa-user-plus",
-
-pertanyaan:
-"Apakah Plh Kaper boleh menetapkan Plh Koorwas?",
-
-jawaban:
-"Tidak. Plh Kaper tidak berwenang menetapkan Plh Koorwas. Penunjukan PLH dilakukan melalui Surat Perintah dari pejabat yang berwenang sesuai ketentuan yang berlaku."
-
-},
-
-{
-kategori:"Pengadaan",
-
-icon:"fa-user-plus",
+icon:"logo-sdm",
 
 pertanyaan:
-"Mau tanya terkait PLH, apakah boleh menetapkan PLH langsung sebulan atau harus seminggu?",
+"Jika Kepala Perwakilan (Kaper) mengajukan cuti tahunan, apakah persetujuan dari atasan atasan langsung tetap berada pada Plt. Kepala BPKP?",
 
 jawaban:
-"Penetapan PLH dapat dilakukan langsung selama 1 (satu) bulan. Jangka waktu pelaksanaan tugas PLH paling lama 30 (tiga puluh) hari dan tidak dapat diperpanjang sesuai Peraturan BKN Nomor 3 Tahun 2024."
-},
+"Ya, persetujuan tetap ke Kepala BPKP/Plt. Kepala BPKP sesuai dengan pendelegasian wewenang yang berlaku.",
 
-{
-kategori:"Pengadaan",
-
-icon:"fa-user-plus",
-
-pertanyaan:
-"Mau tanya terkait PLH, apakah boleh menetapkan PLH langsung sebulan atau harus seminggu?",
-
-jawaban:
-"Penetapan PLH dapat dilakukan langsung selama 1 (satu) bulan. Jangka waktu pelaksanaan tugas PLH paling lama 30 (tiga puluh) hari dan tidak dapat diperpanjang sesuai Peraturan BKN Nomor 3 Tahun 2024."
-
+dasar:
+"Peraturan Badan BPKP Nomor 6 Tahun 2020 tentang Pendelegasian Wewenang Cuti"
 },
 
 
 {
-kategori:"Pengadaan",
+kategori:"Layanan SDM",
 
-icon:"fa-user-plus",
-
-pertanyaan:
-"Apakah Plt Kaper dapat melantik pegawai inpassing?",
-
-jawaban:
-"Pelaksanaan pelantikan pegawai inpassing dilakukan sesuai kewenangan pejabat yang berwenang berdasarkan ketentuan yang berlaku."
-
-},
-
-
-
-/*
-=====================================================
-3. PENGUATAN BUDAYA KERJA & CITRA
-=====================================================
-*/
-
-{
-kategori:"Penguatan Budaya Kerja & Citra",
-
-icon:"fa-building-columns",
+icon:"logo-sdm",
 
 pertanyaan:
-"Apakah izin luar negeri untuk kepentingan pribadi harus mengajukan cuti terlebih dahulu?",
+"Apakah untuk pegawai yang mengalami mutasi dengan status Bebas Tugas / Beban Sendiri (BS) dapat diterbitkan SPD Nihil?",
 
 jawaban:
-"Pegawai perlu mengajukan izin atau cuti terlebih dahulu sesuai ketentuan dan kebijakan unit kerja masing-masing."
+"Diproses sesuai ketentuan administrasi perjalanan dinas non-pembiayaan (koordinasi teknis Bagian Mutasi/Keuangan).",
 
+dasar:
+"Ketentuan Perjalanan Dinas Administrasi Mutasi"
 },
 
 
 {
-kategori:"Penguatan Budaya Kerja & Citra",
+kategori:"Layanan SDM",
 
-icon:"fa-building-columns",
+icon:"logo-sdm",
 
 pertanyaan:
-"Apa saja dokumen persyaratan pengajuan izin luar negeri?",
+"Apakah dokumen pengajuan Izin Luar Negeri Pribadi perlu dikirimkan berkas fisiknya (hardcopy) atau cukup diunggah di MAP?",
 
 jawaban:
-"Dokumen persyaratan pengajuan izin luar negeri disampaikan sesuai ketentuan dan persyaratan administrasi yang berlaku."
+"Tidak perlu dikirim hardcopy, sesuai SOP dokumen cukup diunggah secara elektronik pada aplikasi MAP.",
 
+dasar:
+"SOP Pelayanan Kepegawaian Digital MAP BPKP"
 },
 
 
 {
-kategori:"Penguatan Budaya Kerja & Citra",
+kategori:"Layanan SDM",
 
-icon:"fa-building-columns",
+icon:"logo-sdm",
 
 pertanyaan:
-"Apa saja dokumen persyaratan pengajuan surat pengantar izin luar negeri?",
+"Apakah pegawai diperbolehkan mengajukan Cuti Alasan Penting (CAP) untuk mendampingi anak yang menjalani operasi lepas pen/tindakan medis?",
 
 jawaban:
-"Dokumen pengantar izin luar negeri harus dilengkapi sesuai persyaratan administrasi yang telah ditentukan."
+"Boleh mengajukan CAP, dengan syarat melampirkan kelengkapan dokumen medis yang sah.",
 
+dasar:
+"Surat Edaran BPKP Nomor SE-652 tentang Pemberian CAP"
 },
 
 
 {
-kategori:"Penguatan Budaya Kerja & Citra",
+kategori:"Layanan SDM",
 
-icon:"fa-building-columns",
+icon:"logo-sdm",
 
 pertanyaan:
-"Apakah izin luar negeri pribadi perlu mengirimkan dokumen hardcopy?",
+"Bagaimana ketentuan pembebasan visa bagi pemegang Paspor Dinas dan Diplomatik?",
 
 jawaban:
-"Pengiriman dokumen hardcopy mengikuti mekanisme dan ketentuan administrasi yang berlaku."
+"Per 22 November 2024, terdapat 102 negara mitra yang membebaskan pemegang Paspor Dinas dan Paspor Diplomatik RI dari kewajiban memiliki visa.",
 
+dasar:
+"Informasi Bebas Visa Diplomatik dan Dinas Kementerian Luar Negeri RI"
 },
 
 
 {
-kategori:"Penguatan Budaya Kerja & Citra",
+kategori:"Layanan SDM",
 
-icon:"fa-building-columns",
-
-pertanyaan:
-"Bagaimana informasi mengenai bebas visa luar negeri?",
-
-jawaban:
-"Informasi bebas visa luar negeri mengikuti kebijakan negara tujuan dan ketentuan perjalanan internasional yang berlaku."
-
-},
-
-/*
-=====================================================
-4. PENGELOLAAN KINERJA
-=====================================================
-*/
-
-{
-kategori:"Pengelolaan Kinerja",
-
-icon:"fa-chart-line",
+icon:"logo-sdm",
 
 pertanyaan:
-"Apakah dokumen konversi NIP yang hilang dapat diganti?",
+"Bagaimanakah syarat dan ketentuan penangguhan penggunaan Hak Cuti Tahunan PNS?",
 
 jawaban:
-"Dokumen konversi NIP yang hilang dapat diganti dengan Surat Keterangan kehilangan yang diketahui oleh atasan langsung atau Subkoordinator Kepegawaian."
+"Hak Cuti Tahunan dapat ditangguhkan penggunaannya oleh Pejabat Berwenang paling lama 1 (satu) tahun apabila terdapat kepentingan dinas mendesak.",
 
+dasar:
+"Peraturan BKN Nomor 24 Tahun 2017 jo. Peraturan BKN Nomor 7 Tahun 2021"
 },
 
 
 {
-kategori:"Pengelolaan Kinerja",
+kategori:"Layanan SDM",
 
-icon:"fa-chart-line",
+icon:"logo-sdm",
 
 pertanyaan:
-"Apa dasar hukum terkait cuti PNS?",
+"Cuti jenis apa yang dapat digunakan oleh Pegawai Pemerintah dengan Perjanjian Kerja (PPPK) yang akan melangsungkan pernikahan?",
 
 jawaban:
-"Dasar hukum terkait cuti PNS adalah Peraturan BKN Nomor 24 Tahun 2017 tentang Tata Cara Pemberian Cuti PNS."
+"Menggunakan Cuti Tahunan Kondisi Khusus. Bagi PPPK yang bekerja kurang dari 1 tahun dapat mengambil maksimal 6 hari kerja untuk pernikahan pertama dengan mengurangi hak cuti tahunan berjalan.",
 
+dasar:
+"Peraturan BKN Nomor 7 Tahun 2022 Pasal 9"
 },
 
 
 {
-kategori:"Pengelolaan Kinerja",
+kategori:"Layanan SDM",
 
-icon:"fa-chart-line",
-
-pertanyaan:
-"Kapan penggunaan cuti tahunan dapat ditangguhkan?",
-
-jawaban:
-"Cuti tahunan dapat ditangguhkan apabila terdapat kepentingan dinas yang mendesak sesuai Peraturan BKN Nomor 24 Tahun 2017."
-
-},
-
-
-{
-kategori:"Pengelolaan Kinerja",
-
-icon:"fa-chart-line",
+icon:"logo-sdm",
 
 pertanyaan:
-"Apabila Kaper sedang cuti tahunan, apakah atasan langsung mengambil alih tugas?",
+"Bolehkah PPPK yang baru diangkat mengajukan Cuti Melahirkan untuk kelahiran anak keempat?",
 
 jawaban:
-"Pelaksanaan tugas selama pejabat menjalankan cuti dilakukan sesuai mekanisme dan kewenangan pejabat yang berlaku."
+"Boleh, karena acuan pemberian cuti adalah frekuensi penggunaan hak Cuti Melahirkan selama menjadi PPPK, bukan berdasarkan urutan kelahiran anak.",
 
+dasar:
+"Peraturan BKN Nomor 7 Tahun 2022 Pasal 18 Ayat (2)"
 },
-
-
-{
-kategori:"Pengelolaan Kinerja",
-
-icon:"fa-chart-line",
-
-pertanyaan:
-"Bagaimana pengajuan CAP (Cuti Alasan Penting)?",
-
-jawaban:
-"Pengajuan Cuti Alasan Penting (CAP) dilakukan sesuai persyaratan dan ketentuan pemberian cuti yang berlaku."
-
-},
-
-
 
 /*
 =====================================================
@@ -280,18 +188,19 @@ jawaban:
 =====================================================
 */
 
-
 {
 kategori:"Pengembangan Talenta & Karier",
 
 icon:"fa-ranking-star",
 
 pertanyaan:
-"Bagaimana mekanisme penundaan keberangkatan pegawai setelah diterbitkan SK mutasi?",
+"Bagaimana prosedur penundaan kepindahan/keberangkatan pegawai pasca diterbitkannya SK Mutasi?",
 
 jawaban:
-"Penundaan dilakukan melalui koordinasi unit lama dengan unit tujuan karena kewenangan kepegawaian telah berpindah kepada unit baru."
+"Berkoordinasi dengan unit tujuan terlebih dahulu karena kewenangan kepegawaian telah beralih. Selanjutnya unit lama membuat surat penundaan kepada unit tujuan dengan tembusan kepada Sestama dan Deputi Pembina serta mencantumkan tenggat waktu.",
 
+dasar:
+"Arahan Kebijakan Penugasan & Mutasi Pegawai"
 },
 
 
@@ -301,11 +210,13 @@ kategori:"Pengembangan Talenta & Karier",
 icon:"fa-ranking-star",
 
 pertanyaan:
-"Untuk Mutasi yang BS, apakah dapat diterbitkan SPD Nihil?",
+"Bagaimana penyelesaian evaluasi PAK (Juli–Desember 2022) bagi pegawai yang akan melakukan penyesuaian jika unit kerja lama tidak dapat menerbitkan evaluasi tersebut?",
 
 jawaban:
-"Ketentuan penerbitan SPD Nihil untuk mutasi disesuaikan dengan ketentuan yang berlaku."
+"Tetap diperlukan Evaluasi PAK periode Juli–Desember 2022. Dokumen tersebut dapat diajukan melalui unit kerja baru (Putrajakwas).",
 
+dasar:
+"Ketentuan Penyelarasan Angka Kredit Jabatan Fungsional"
 },
 
 
@@ -315,11 +226,13 @@ kategori:"Pengembangan Talenta & Karier",
 icon:"fa-ranking-star",
 
 pertanyaan:
-"Jika pegawai pindah kemudian langsung cuti melahirkan dan cuti besar, bagaimana pembuatan SPMT dan SPMJ?",
+"Bagaimana penentuan SPMT bagi pegawai mutasi yang langsung mengambil Cuti Melahirkan dan dilanjutkan Cuti Besar di unit baru?",
 
 jawaban:
-"Apabila unit baru telah menyetujui cuti besar, maka SPMT harus dibuat karena unit baru telah mengakui pegawai tersebut sebagai bagian dari unit kerja."
+"Jika unit kerja baru telah menyetujui Cuti Besar, SPMT wajib dibuat oleh unit kerja baru tersebut karena persetujuan cuti menandakan pengakuan bahwa pegawai bersangkutan telah bertugas di unit kerja baru.",
 
+dasar:
+"Peraturan BKN Nomor 5 Tahun 2023"
 },
 
 
@@ -329,11 +242,13 @@ kategori:"Pengembangan Talenta & Karier",
 icon:"fa-ranking-star",
 
 pertanyaan:
-"Apakah auditor dengan ijazah D3 yang akan naik ke pangkat III/a harus mengikuti UD?",
+"Apakah Pejabat Fungsional Auditor berpendidikan D3 wajib mengikuti Ujian Dinas (UD) untuk naik ke Golongan III/a?",
 
 jawaban:
-"Tidak perlu UD. Cukup mengikuti uji kompetensi sesuai jenjang jabatan."
+"Tidak perlu Ujian Dinas. Bagi Pejabat Fungsional, kenaikan pangkat atau jenjang dilakukan melalui Uji Kompetensi (Ujikom). Ujian Dinas hanya berlaku bagi Jabatan Pelaksana.",
 
+dasar:
+"Ketentuan Kenaikan Pangkat & Jabatan Fungsional ASN"
 },
 
 
@@ -343,14 +258,46 @@ kategori:"Pengembangan Talenta & Karier",
 icon:"fa-ranking-star",
 
 pertanyaan:
-"Bagaimana ketentuan SKS yang ditandatangani berdasarkan PP Nomor 35 Tahun 2010?",
+"Siapakah yang berwenang menandatangani Pelaksana Harian (Plh.) Koordinator Pengawasan (Korwas)?",
 
 jawaban:
-"SKS yang ditandatangani berdasarkan PP Nomor 35 Tahun 2010 mengacu pada ketentuan peraturan yang berlaku."
+"Jabatan Koordinator Pengawasan (Korwas) tidak dibuatkan Pelaksana Harian (Plh.).",
 
+dasar:
+"Peraturan Badan BPKP Nomor 3 Tahun 2024"
 },
 
 
+{
+kategori:"Pengembangan Talenta & Karier",
+
+icon:"fa-ranking-star",
+
+pertanyaan:
+"Apakah Pelaksana Tugas (Plt.) Kepala Perwakilan berwenang untuk melantik pegawai yang diangkat melalui jalur Inpassing?",
+
+jawaban:
+"Tidak berwenang. Pelantikan pegawai wajib dilakukan oleh Pejabat Definitif / Struktural.",
+
+dasar:
+"Peraturan Badan BPKP Nomor 3 Tahun 2024"
+},
+
+
+{
+kategori:"Pengembangan Talenta & Karier",
+
+icon:"fa-ranking-star",
+
+pertanyaan:
+"Apakah penetapan Pelaksana Harian (Plh.) boleh langsung ditetapkan untuk jangka waktu 1 (satu) bulan, atau harus diperbarui per minggu?",
+
+jawaban:
+"Boleh langsung ditetapkan untuk jangka waktu 1 (satu) bulan dengan maksimal 30 hari kalender dan tidak dapat diperpanjang.",
+
+dasar:
+"Peraturan Badan BPKP Nomor 3 Tahun 2024"
+},
 
 /*
 =====================================================
@@ -358,52 +305,92 @@ jawaban:
 =====================================================
 */
 
+
 {
 kategori:"Pengembangan Kompetensi",
 
 icon:"fa-graduation-cap",
 
 pertanyaan:
-"Bagaimana perlakuan PAK Integrasi setelah selesai tugas belajar dan lulus uji kompetensi?",
+"Bagaimana perlakuan PAK Integrasi bagi Auditor Penyelia (Gol. III/c) yang selesai Tugas Belajar dan lulus Uji Kompetensi Auditor Ahli Muda?",
 
 jawaban:
-"Dibuatkan revisi PAK Integrasi dengan perubahan keterangan menjadi dapat dipertimbangkan menjadi auditor muda tanpa menyertakan kenaikan pangkat."
+"Dibuatkan revisi pada kolom keterangan Bagian III menjadi: \"Dapat dipertimbangkan menjadi Auditor Muda\" tanpa menyertakan keterangan kenaikan pangkat.",
 
+dasar:
+"Ketentuan Penyesuaian Jabatan Fungsional Pasca Tugas Belajar"
+},
+
+
+{
+kategori:"Pengembangan Kompetensi",
+
+icon:"fa-graduation-cap",
+
+pertanyaan:
+"Bagaimana tata cara mencetak Surat Perintah Jalan (SPD) Diklat melalui aplikasi Bisma?",
+
+jawaban:
+"Cara mencetak SPD Diklat melalui Bisma:<br><br>1. Buka bisma.bpkp.go.id menggunakan login sesuai akun Warga.<br>2. Klik menu Perjadin Diklat di sebelah kiri.<br>3. Pilih nama diklat yang diikuti dan cetak SPD.<br>4. Klik menu Cetak SPD Belakang Sesuai Diklat di pojok kanan atas.<br>5. Pilih nama diklat yang diikuti dan cetak bagian belakang SPD.",
+
+dasar:
+"SOP Pelaksanaan Diklat / Sistem Aplikasi Bisma BPKP"
+},
+
+
+{
+kategori:"Pengembangan Kompetensi",
+
+icon:"fa-graduation-cap",
+
+pertanyaan:
+"Berapa batas waktu maksimal penyelesaian masa studi bagi pegawai yang mengajukan Izin Belajar jenjang Sarjana (S1)?",
+
+jawaban:
+"Batas waktu penyelesaian Izin Belajar jenjang Sarjana (S1) adalah 2 (dua) tahun.",
+
+dasar:
+"Peraturan Tugas Belajar dan Izin Belajar (Perban Tubel)"
 },
 
 
 
 /*
 =====================================================
-7. PEMBERIAN PENGHARGAAN & PENGAKUAN
+7. PENGHARGAAN & PENGAKUAN
 =====================================================
 */
 
+
 {
-kategori:"Pemberian Penghargaan & Pengakuan",
+kategori:"Penghargaan & Pengakuan",
 
 icon:"fa-award",
 
 pertanyaan:
-"Apa dasar pemberian penghargaan kepada pegawai?",
+"Dokumen konversi NIP dalam pengajuan Satyalancana Karya Satya (SKS) tidak ditemukan, apakah bisa digantikan dengan dokumen lain?",
 
 jawaban:
-"Pemberian penghargaan diberikan berdasarkan prestasi, kontribusi, dan ketentuan peraturan yang berlaku."
+"Bisa diganti dengan Surat Keterangan (Suket) Kondisi Kehilangan yang diketahui dan ditandatangani oleh Atasan Langsung / Subkoordinator Kepegawaian.",
 
+dasar:
+"Ketentuan Administrasi Pengajuan SKS Internal"
 },
 
 
 {
-kategori:"Pemberian Penghargaan & Pengakuan",
+kategori:"Penghargaan & Pengakuan",
 
 icon:"fa-award",
 
 pertanyaan:
-"Apa hak pegawai yang mengalami kecelakaan kerja?",
+"Bagaimana ketentuan pengusulan Satyalancana Karya Satya (SKS) bagi pegawai yang pernah dikenakan sanksi hukuman disiplin?",
 
 jawaban:
-"Pegawai yang mengalami kecelakaan kerja memperoleh hak sesuai ketentuan perlindungan pegawai melalui mekanisme yang berlaku."
+"Perhitungan masa kerja diulang dari nol sejak selesainya masa hukdis, dan pegawai baru dapat diusulkan kembali setelah 10 tahun terhitung dari selesainya hukdis.",
 
+dasar:
+"PP Nomor 35 Tahun 2010 Pasal 22 huruf b"
 },
 
 
@@ -414,17 +401,34 @@ jawaban:
 =====================================================
 */
 
+
 {
 kategori:"Pemberhentian",
 
 icon:"fa-user-slash",
 
 pertanyaan:
-"Bagaimana proses pemberhentian pegawai ASN?",
+"Apa saja hak asuransi/jaminan yang diperoleh pegawai yang mengalami kecelakaan kerja beserta pengelolanya?",
 
 jawaban:
-"Pemberhentian pegawai ASN dilakukan sesuai dengan ketentuan peraturan perundang-undangan yang berlaku."
+"1. Asuransi Jasa Raharja dikelola oleh Biro Umum.<br><br>2. Jaminan Kecelakaan Kerja (JKK) PT Taspen dikelola oleh Bagian Pemberhentian (PIC Taspen: Rahmad Hidayat).",
+dasar:
+"Ketentuan Jaminan Kecelakaan Kerja (JKK) ASN & PT Taspen"
+},
 
+
+{
+kategori:"Pemberhentian",
+
+icon:"fa-user-slash",
+
+pertanyaan:
+"Apakah PNS yang telah bercerai dan menikah kembali wajib menyampaikan Laporan Perkawinan Kedua?",
+
+jawaban:
+"Ya, wajib menyampaikan Laporan Perkawinan Kedua sesuai dengan format kelengkapan dokumen yang berlaku.",
+
+dasar:
+"PP Nomor 45 Tahun 1990 jo. PP Nomor 10 Tahun 1983"
 }
-
 ];
