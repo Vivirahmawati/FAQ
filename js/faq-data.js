@@ -28,7 +28,7 @@ kategori:"Layanan SDM",
 icon:"logo-sdm",
 
 pertanyaan:
-"terkait pegawai yang barusan pulang CLTN ditahun 2025 , apakah cuti nya bisa jadi 24 hari di tahun 2026?",
+"Terkait pegawai yang barusan pulang CLTN ditahun 2025 , apakah cuti nya bisa jadi 24 hari di tahun 2026?",
 
 jawaban:
 "PNS yang telah selesai menjalankan CLTN dan telah diaktifkan kembali sebagai PNS baru dapat mengajukan cuti tahunan apabila telah bekerja secara terus menerus paling singkat 1 tahun sejak diaktifkan kembali sebagai PNS,TMT dimulai dari tanggal SK pengaktifan kembali, bukan dari tanggal selesai CLTN, bukan juga dari tanggal lapor diri,Kalau SK pengaktifan kembali misalnya TMT 1 Agustus 2025, yang bersangkutan belum boleh mengajukan cuti tahunan sama sekali sampai 1 Agustus 2026. Setelah itu barulah hak 12 hari (tahun berjalan 2026) berlaku.",
