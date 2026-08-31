@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Flyers Layanan SDM</title>
+
+
+<link rel="stylesheet" href="css/style.css">
+
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+
+
+<body>
+
+
+<section class="faq-area">
+
+
+<div class="section">
+
+
+<div class="faq-heading">
+
+
+<div>
+
+<h2>
+Flyers Layanan SDM
+</h2>
+
+<p>
+Kumpulan panduan dan informasi layanan kepegawaian SDM.
+</p>
+
+
+</div>
+
+
+</div>
+
+
+
+<div id="flyerContainer" class="faq-list">
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+<script src="js/flyer-data.js"></script>
+
+
+<script>
+
+
+const container = document.getElementById("flyerContainer");
+
+
+
+flyerData.forEach(flyer => {
+
+
+container.innerHTML += `
+
+
+<div class="faq-item flyer-item">
+
+
+
+<div class="question">
+
+${flyer.judul}
+
+</div>
+
+<div class="answer" style="display:block;">
+
+<p>
+
+<strong>
+Informasi Singkat:
+</strong>
+
+</p>
+
+
+<p>
+
+${flyer.informasi}
+
+</p>
+
+
+
+
+<p>
+
+<strong>
+File Ketentuan:
+</strong>
+
+</p>
+
+
+
+<p>
+
+<i class="fa-solid fa-paperclip"></i>
+
+${flyer.file.split("/").pop()}
+
+</p>
+
+
+
+
+
+<div class="flyer-button">
+
+<div class="flyer-button">
+
+<a href="${flyer.file}" target="_blank">
+Lihat PDF
+</a>
+
+<a href="${flyer.file}" download>
+Download PDF
+</a>
+
+</div>
+
+</div>
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+`;
+
+
+
+});
+
+
+</script>
+
+
+
+</body>
+
+</html>

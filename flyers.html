@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Flyers Layanan SDM</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+
+<body>
+
+
+<section class="faq-area">
+
+    <div class="section">
+
+
+        <!-- JUDUL HALAMAN -->
+
+        <div class="faq-heading">
+
+            <div>
+
+                <span class="eyebrow">
+                    INFORMASI SDM
+                </span>
+
+                <h1>
+                    Flyers Layanan SDM
+                </h1>
+
+                <p>
+                    Kumpulan panduan dan informasi layanan kepegawaian SDM.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- DAFTAR FLYER -->
+
+        <div id="flyerContainer" class="flyer-list">
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<script src="js/flyer-data.js"></script>
+
+
+<script>
+
+const container = document.getElementById("flyerContainer");
+
+
+flyerData.forEach(flyer => {
+
+    const namaFile = flyer.file.split("/").pop();
+
+
+    container.innerHTML += `
+
+        <div class="flyer-item">
+
+
+            <!-- THUMBNAIL -->
+
+            <div class="flyer-thumbnail">
+
+                <img
+                    src="${flyer.gambar}"
+                    alt="${flyer.judul}"
+                >
+
+            </div>
+
+
+
+            <!-- INFORMASI -->
+
+            <div class="flyer-content">
+
+
+                <h2>
+                    ${flyer.judul}
+                </h2>
+
+
+                <div class="flyer-info-title">
+
+                    <i class="fa-solid fa-circle-info"></i>
+
+                    Informasi Singkat:
+
+                </div>
+
+
+                <p class="flyer-description">
+
+                    ${flyer.informasi}
+
+                </p>
+
+
+                <div class="flyer-file-title">
+
+                    <i class="fa-solid fa-paperclip"></i>
+
+                    File Ketentuan:
+
+                </div>
+
+
+                <p class="flyer-filename">
+
+                    ${namaFile}
+
+                </p>
+
+
+            </div>
+
+
+
+            <!-- TOMBOL -->
+
+            <div class="flyer-actions">
+
+
+                <a
+                    href="${flyer.file}"
+                    target="_blank"
+                    class="btn-view"
+                >
+
+                    <i class="fa-solid fa-eye"></i>
+
+                    Lihat PDF
+
+                </a>
+
+
+                <a
+                    href="${flyer.file}"
+                    download
+                    class="btn-download"
+                >
+
+                    <i class="fa-solid fa-download"></i>
+
+                    Download PDF
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+    `;
+
+});
+
+</script>
+
+
+</body>
+
+</html>

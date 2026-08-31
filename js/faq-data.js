@@ -2,7 +2,7 @@ const faqData = [
 
 /*
 =====================================================
-9. LAYANAN SDM
+1. LAYANAN SDM
 =====================================================
 */
 
@@ -20,6 +20,21 @@ jawaban:
 
 dasar:
 "Kebijakan Internal Unit Kerja / Perwakilan"
+},
+
+{
+kategori:"Layanan SDM",
+
+icon:"logo-sdm",
+
+pertanyaan:
+"terkait pegawai yang barusan pulang CLTN ditahun 2025 , apakah cuti nya bisa jadi 24 hari di tahun 2026?",
+
+jawaban:
+"PNS yang telah selesai menjalankan CLTN dan telah diaktifkan kembali sebagai PNS baru dapat mengajukan cuti tahunan apabila telah bekerja secara terus menerus paling singkat 1 tahun sejak diaktifkan kembali sebagai PNS,TMT dimulai dari tanggal SK pengaktifan kembali, bukan dari tanggal selesai CLTN, bukan juga dari tanggal lapor diri,Kalau SK pengaktifan kembali misalnya TMT 1 Agustus 2025, yang bersangkutan belum boleh mengajukan cuti tahunan sama sekali sampai 1 Agustus 2026. Setelah itu barulah hak 12 hari (tahun berjalan 2026) berlaku.",
+
+dasar:
+"Peraturan BKN 24/2017 (sebagaimana diubah dengan Peraturan BKN 7/2021)."
 },
 
 
@@ -61,7 +76,7 @@ kategori:"Layanan SDM",
 icon:"logo-sdm",
 
 pertanyaan:
-"Jika Kepala Perwakilan (Kaper) mengajukan cuti tahunan, apakah persetujuan dari atasan atasan langsung tetap berada pada Plt. Kepala BPKP?",
+"Jika Kepala Perwakilan (Kaper) mengajukan cuti tahunan, apakah persetujuan dari atasan langsung tetap berada pada Plt. Kepala BPKP?",
 
 jawaban:
 "Ya, persetujuan tetap ke Kepala BPKP/Plt. Kepala BPKP sesuai dengan pendelegasian wewenang yang berlaku.",
@@ -182,9 +197,99 @@ dasar:
 "Peraturan BKN Nomor 7 Tahun 2022 Pasal 18 Ayat (2)"
 },
 
+
+{
+kategori:"Layanan SDM",
+
+icon:"logo-sdm",
+
+pertanyaan:
+"Jika saya baru saja menikah / punya anak, saya ingin update tunjangan Keluarga/KP4, dokumen apa saja yang harus saya lampirkan?",
+
+jawaban:
+"Syarat update tunjangan KP4 adalah melampirkan Akte Nikah / Akte Kelahiran Anak, mengisi form KP4 melalui link yang telah disediakan. Setelah form diisi dan disubmit, form otomatis tercetak dalam bentuk PDF. Selanjutnya melampirkan Kartu Keluarga terbaru yang sudah ditandatangani pejabat berwenang. Setelah seluruh dokumen terpenuhi, PIC KP4 akan menghubungi PIC Biro Keuangan untuk proses update tunjangan KP4 pada bulan berikutnya."
+},
+
+
+{
+kategori:"Layanan SDM",
+
+icon:"logo-sdm",
+
+pertanyaan:
+"Apakah boleh izin luar negeri namun tanpa cuti tahunan / cuti besar? Contoh umroh di akhir tahun, kondisi cuti sudah habis, dan izin LN dengan status izin tidak masuk dengan seizin atasan dan pimpinan unit kerja?",
+
+jawaban:
+"Tidak boleh. Izin Luar Negeri (LN) hanya dapat diproses dengan melampirkan jenis cuti yang digunakan. Tidak diperbolehkan mengajukan izin tidak masuk kerja apabila cuti tahunan sudah habis.",
+
+dasar:
+"SE Kepala BPKP HK.01.00 SE-4 Tahun 2025 tentang Mekanisme Izin LN BPKP"
+},
+
+
+{
+kategori:"Layanan SDM",
+
+icon:"logo-sdm",
+
+pertanyaan:
+"Saya sedang berobat ke dokter, pada saat pendaftaran ternyata BPJS saya dan keluarga tidak aktif, bagaimana solusinya?",
+
+jawaban:
+"Bapak/Ibu dapat menghubungi PIC Biro SDM dengan mengirimkan screenshot status data peserta pada aplikasi Mobile JKN. PIC Biro SDM akan berkoordinasi dengan PIC Biro Keuangan untuk memperoleh slip gaji terakhir sebagai dokumen kelengkapan pengaktifan kembali. Selanjutnya PIC Biro SDM akan mengirimkan form excel pengaktifan kembali beserta dokumen pendukung melalui email ke BPJS."
+},
+
+
+{
+kategori:"Layanan SDM",
+
+icon:"logo-sdm",
+
+pertanyaan:
+"Apakah boleh izin LN saat sedang dalam proses pemeriksaan karena diduga melakukan pelanggaran disiplin?",
+
+jawaban:
+"Tidak boleh. Pegawai harus menunggu proses pemeriksaan selesai hingga terbit keputusan yang ditandai dengan SK Hukuman Disiplin. Izin Luar Negeri dapat diberikan setelah proses tersebut selesai dengan mempertimbangkan keputusan dan persetujuan Pimpinan BPKP.",
+
+dasar:
+"SE Kepala BPKP HK.01.00 SE-4 Tahun 2025 tentang Mekanisme Izin LN BPKP"
+},
+
+
+{
+kategori:"Layanan SDM",
+
+icon:"logo-sdm",
+
+pertanyaan:
+"Apakah anggota keluarga selain keluarga inti bisa masuk tanggungan BPJS saya?",
+
+jawaban:
+"Bisa. Anggota keluarga lainnya yang dapat ditanggung adalah anak ke-4, orang tua, dan mertua.",
+
+dasar:
+"Peraturan Presiden Nomor 64 Tahun 2020 dan Perdirjen Perbendaharaan Nomor PER-7/PB/2021"
+},
+
+
+{
+kategori:"Layanan SDM",
+
+icon:"logo-sdm",
+
+pertanyaan:
+"Dokumen apa saja yang harus saya siapkan untuk mendaftarkan orang tua saya menjadi tanggungan saya di BPJS?",
+
+jawaban:
+"Dokumen yang harus disiapkan agar Surat Eligibilitas dapat diterbitkan oleh Biro Keuangan yaitu Surat Kuasa dari Pemohon, KK Orang Tua, KK Pemohon, dan Kartu BPJS Orang Tua. Setelah Surat Eligibilitas terbit, PIC Biro SDM akan melakukan konfirmasi ke BPJS melalui email dengan melampirkan form excel pendaftaran dan Surat Eligibilitas dari Biro Keuangan. Apabila BPJS menyatakan dapat diproses, maka Biro Keuangan akan menerbitkan slip gaji yang sudah dipotong 1% untuk anggota keluarga lainnya.",
+
+dasar:
+"Peraturan Presiden Nomor 64 Tahun 2020 dan Perdirjen Perbendaharaan Nomor PER-7/PB/2021"
+},
+
 /*
 =====================================================
-5. PENGEMBANGAN TALENTA & KARIER
+2. PENGEMBANGAN TALENTA & KARIER
 =====================================================
 */
 
@@ -301,7 +406,7 @@ dasar:
 
 /*
 =====================================================
-6. PENGEMBANGAN KOMPETENSI
+3. PENGEMBANGAN KOMPETENSI
 =====================================================
 */
 
@@ -357,7 +462,7 @@ dasar:
 
 /*
 =====================================================
-7. PENGHARGAAN & PENGAKUAN
+4. PENGHARGAAN & PENGAKUAN
 =====================================================
 */
 
@@ -397,7 +502,7 @@ dasar:
 
 /*
 =====================================================
-8. PEMBERHENTIAN
+5. PEMBERHENTIAN
 =====================================================
 */
 

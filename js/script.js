@@ -217,3 +217,74 @@ window.onload = function(){
 tampilkanFAQ(faqData);
 
 };
+
+// ===============================
+// TAMPILKAN FLYERS LAYANAN SDM
+// ===============================
+
+const flyerContainer = document.getElementById("flyerContainer");
+
+
+if(flyerContainer && typeof flyerData !== "undefined"){
+
+
+flyerData.forEach(item => {
+
+
+flyerContainer.innerHTML += `
+
+<div class="faq-item">
+
+
+<div class="faq-question">
+
+</div>
+
+
+<div class="faq-answer">
+
+<p>
+<strong>Informasi Singkat:</strong>
+</p>
+
+<p>
+${item.informasi}
+</p>
+
+
+<p>
+<strong>File Ketentuan:</strong>
+</p>
+
+
+<p>
+📎 ${item.file.split("/").pop()}
+</p>
+
+
+<a href="${item.file}" target="_blank">
+Lihat PDF
+</a>
+
+
+<a href="${item.file}" download>
+Download PDF
+</a>
+
+
+</div>
+
+
+</div>
+
+`;
+
+});
+
+
+}
+function openFlyerPage(){
+
+window.location.href="flyers.html";
+
+}

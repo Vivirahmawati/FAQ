@@ -497,6 +497,114 @@ a {
   text-align: center;
 }
 
+/* =========================
+   Flyers Layanan SDM
+========================= */
+
+.flyer-card-home {
+
+    width:420px;
+    height:190px;
+
+    background:#10365f;
+
+    border-radius:20px;
+
+    border:1px solid rgba(255,255,255,0.2);
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    cursor:pointer;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+
+}
+
+
+/* Judul Flyers */
+.flyer-card-home h1 {
+
+    color:#ffffff !important;
+
+    font-size:30px;
+
+    margin:0 0 15px;
+
+    text-align:center;
+
+    font-family:"Libre Baskerville", Georgia, serif;
+
+}
+
+
+/* Deskripsi */
+.flyer-card-home p {
+
+    width:75%;
+
+    text-align:center;
+
+    font-size:16px;
+
+    line-height:1.6;
+
+    color:#ffffff !important;
+
+    margin:10px auto 0;
+
+}
+
+
+/* Tombol Lihat Flyers */
+.flyer-card-home .flyer-link {
+
+    color:#ffffff !important;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    margin-top:15px;
+
+}
+
+
+/* Posisi Tengah */
+.flyer-area .section {
+
+    display:block;
+
+}
+
+
+.flyer-area .flyer-card-home {
+
+    margin-left:auto;
+
+    margin-right:auto;
+
+}
+
+
+/* Hover */
+.flyer-card-home:hover {
+
+    transform:translateY(-5px);
+
+    border-color:#ffffff;
+
+    box-shadow:var(--shadow-md);
+
+}
+
 /* Regulasi */
 .references {
   padding-block: 70px 80px;
@@ -525,7 +633,7 @@ a {
 
 .regulation-card:hover,
 .regulation-card:focus-visible {
-  border-color: #b8c7d6;
+  border-color: #042d56;
   box-shadow: var(--shadow-md);
   outline: 0;
   transform: translateY(-3px);
@@ -613,7 +721,7 @@ a {
 .footer-brand img {
   width: 96px;
   height: auto;
-  filter: drop-shadow(0 2px 4px rgba(0,0,0,.2));
+  filter: drop-shadow(0 2px 4px rgba(252, 250, 250, 0.836));
 }
 
 .footer-brand div {
@@ -630,7 +738,7 @@ a {
 .footer-brand span,
 .footer-meta p {
   margin: 0;
-  color: #aebdcd;
+  color: #d9dcdf;
   font-size: 12px;
 }
 
@@ -836,4 +944,622 @@ a {
   .footer-brand img {
     width: 78px;
   }
+}
+
+/* Center Flyers SDM */
+
+.flyer-area {
+
+    margin-top: 60px;
+
+}
+
+
+.flyer-wrapper {
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    width:100%;
+
+}
+
+.flyer-card-home {
+
+    width:420px;
+    height:230px;
+
+    background:#10365f;
+
+    border-radius:20px;
+
+    border:1px solid #d6e5f5;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    cursor:pointer;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+
+}
+
+.flyer-card-home p {
+
+    width:75%;
+    text-align:center;
+    font-size:16px;
+    line-height:1.6;
+    color:#ffffff;
+    margin:10px auto 0;
+
+}
+
+
+.flyer-card-home span {
+
+    color:#ffffff;
+    font-size:14px;
+    font-weight:700;
+
+}
+
+/* ======================
+   HALAMAN LIST FLYERS
+====================== */
+
+.flyer-list-card {
+
+    background:white;
+    border:1px solid var(--line);
+    border-radius:10px;
+    overflow:hidden;
+    margin-bottom:18px;
+    box-shadow:var(--shadow-sm);
+
+}
+
+
+.flyer-list-header {
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    padding:25px 30px;
+
+    border-bottom:1px solid var(--line);
+
+}
+
+
+.flyer-list-header h3 {
+
+    margin:0;
+
+    color:var(--navy-900);
+
+    font-size:18px;
+
+    font-weight:700;
+
+}
+
+
+.flyer-list-body {
+
+    padding:28px 30px;
+
+    background:#f8fafc;
+
+}
+
+
+.flyer-list-body h4 {
+
+    margin-top:0;
+
+    color:var(--navy-900);
+
+}
+
+
+.flyer-list-body p {
+
+    color:var(--muted);
+
+}
+
+
+.flyer-link {
+
+    color:var(--blue-700);
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    margin-right:15px;
+
+}
+
+
+.flyer-link:hover {
+
+    color:var(--gold-500);
+
+}
+
+.flyer-button {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+
+.flyer-button a {
+    color: #10365f;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+.flyer-button a:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   FLYERS CARD MODERN
+========================= */
+
+
+.flyer-card {
+
+    display:flex;
+
+    align-items:center;
+
+    gap:30px;
+
+    background:#ffffff;
+
+    border-radius:18px;
+
+    padding:30px;
+
+    margin-bottom:20px;
+
+    border:1px solid #dbe5f0;
+
+    box-shadow:0 8px 25px rgba(0,0,0,0.08);
+
+}
+
+
+
+.flyer-icon-box {
+
+    width:90px;
+
+    height:90px;
+
+    background:#e8f0fa;
+
+    border-radius:20px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    flex-shrink:0;
+
+}
+
+
+
+.flyer-icon-box i {
+
+    font-size:40px;
+
+    color:#10365f;
+
+}
+
+
+
+.flyer-content {
+
+    flex:1;
+
+}
+
+
+
+.flyer-content h2 {
+
+    margin:0 0 15px;
+
+    font-size:24px;
+
+    color:#10365f;
+
+}
+
+
+
+.flyer-content h4 {
+
+    margin:12px 0 5px;
+
+    color:#10365f;
+
+}
+
+
+
+.flyer-content p {
+
+    margin:0;
+
+    color:#455a75;
+
+    line-height:1.6;
+
+}
+
+
+
+.flyer-action {
+
+    width:180px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+
+}
+
+
+
+.flyer-action a {
+
+    padding:12px;
+
+    text-align:center;
+
+    border-radius:10px;
+
+    text-decoration:none;
+
+    font-weight:700;
+
+}
+
+
+
+.flyer-action a:first-child {
+
+    background:#10365f;
+
+    color:white;
+
+}
+
+
+
+.flyer-action a:last-child {
+
+    border:1px solid #10365f;
+
+    color:#10365f;
+
+}
+
+/* =========================================
+   FLYERS LAYANAN SDM
+   ========================================= */
+
+.flyer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    margin-top: 35px;
+}
+
+
+.flyer-item {
+
+    display: grid;
+
+    grid-template-columns: 150px 1fr 230px;
+
+    align-items: center;
+
+    gap: 35px;
+
+    background: #ffffff;
+
+    border: 1px solid #d9e4ef;
+
+    border-radius: 22px;
+
+    padding: 32px 36px;
+
+    box-shadow: 0 8px 24px rgba(16, 54, 95, 0.08);
+
+    transition: all 0.25s ease;
+
+}
+
+
+.flyer-item:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow: 0 12px 30px rgba(16, 54, 95, 0.13);
+
+}
+
+
+
+/* THUMBNAIL */
+
+.flyer-thumbnail {
+
+    width: 130px;
+
+    height: 130px;
+
+    border-radius: 18px;
+
+    background: #eaf2fb;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    overflow: hidden;
+
+}
+
+
+.flyer-thumbnail img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+}
+
+
+
+/* ISI */
+
+.flyer-content h2 {
+
+    margin: 0 0 18px;
+
+    color: #10365f;
+
+    font-size: 24px;
+
+    font-weight: 700;
+
+}
+
+
+.flyer-info-title,
+.flyer-file-title {
+
+    color: #10365f;
+
+    font-size: 17px;
+
+    font-weight: 700;
+
+    margin-bottom: 8px;
+
+}
+
+
+.flyer-info-title i,
+.flyer-file-title i {
+
+    margin-right: 7px;
+
+}
+
+
+.flyer-description {
+
+    margin: 0 0 18px;
+
+    color: #365a7d;
+
+    font-size: 16px;
+
+    line-height: 1.6;
+
+}
+
+
+.flyer-filename {
+
+    margin: 0;
+
+    color: #365a7d;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+
+    word-break: break-word;
+
+}
+
+
+
+/* TOMBOL */
+
+.flyer-actions {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 14px;
+
+}
+
+
+.flyer-actions a {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 9px;
+
+    min-height: 52px;
+
+    padding: 0 18px;
+
+    border-radius: 13px;
+
+    text-decoration: none;
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+    transition: all 0.2s ease;
+
+}
+
+
+
+/* LIHAT PDF */
+
+.btn-view {
+
+    background: #10365f;
+
+    color: #ffffff !important;
+
+    border: 1px solid #10365f;
+
+}
+
+
+.btn-view:hover {
+
+    background: #0c2b4d;
+
+    transform: translateY(-2px);
+
+}
+
+
+
+/* DOWNLOAD PDF */
+
+.btn-download {
+
+    background: #ffffff;
+
+    color: #10365f !important;
+
+    border: 1px solid #10365f;
+
+}
+
+
+.btn-download:hover {
+
+    background: #edf4fb;
+
+    transform: translateY(-2px);
+
+}
+
+
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+
+    .flyer-item {
+
+        grid-template-columns: 110px 1fr;
+
+        gap: 25px;
+
+    }
+
+
+    .flyer-thumbnail {
+
+        width: 110px;
+
+        height: 110px;
+
+    }
+
+
+    .flyer-actions {
+
+        grid-column: 1 / -1;
+
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .flyer-item {
+
+        grid-template-columns: 1fr;
+
+        text-align: center;
+
+    }
+
+
+    .flyer-thumbnail {
+
+        margin: auto;
+
+    }
+
+
+    .flyer-actions {
+
+        grid-template-columns: 1fr;
+
+    }
+
 }
