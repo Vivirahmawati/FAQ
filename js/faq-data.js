@@ -6,7 +6,6 @@ const faqData = [
 =====================================================
 */
 
-
 {
 kategori:"Layanan SDM",
 
@@ -37,7 +36,6 @@ dasar:
 "Peraturan BKN 24/2017 (sebagaimana diubah dengan Peraturan BKN 7/2021)."
 },
 
-
 {
 kategori:"Layanan SDM",
 
@@ -52,7 +50,6 @@ jawaban:
 dasar:
 "SOP Izin Luar Negeri Urusan Pribadi"
 },
-
 
 {
 kategori:"Layanan SDM",
@@ -69,7 +66,6 @@ dasar:
 "Ketentuan Perjalanan Dinas Luar Negeri KTLN Kemensesneg & Kemenlu RI"
 },
 
-
 {
 kategori:"Layanan SDM",
 
@@ -84,7 +80,6 @@ jawaban:
 dasar:
 "Peraturan Badan BPKP Nomor 6 Tahun 2020 tentang Pendelegasian Wewenang Cuti"
 },
-
 
 {
 kategori:"Layanan SDM",
@@ -101,7 +96,6 @@ dasar:
 "Ketentuan Perjalanan Dinas Administrasi Mutasi"
 },
 
-
 {
 kategori:"Layanan SDM",
 
@@ -116,7 +110,6 @@ jawaban:
 dasar:
 "SOP Pelayanan Kepegawaian Digital MAP BPKP"
 },
-
 
 {
 kategori:"Layanan SDM",
@@ -133,7 +126,6 @@ dasar:
 "Surat Edaran BPKP Nomor SE-652 tentang Pemberian CAP"
 },
 
-
 {
 kategori:"Layanan SDM",
 
@@ -148,7 +140,6 @@ jawaban:
 dasar:
 "Informasi Bebas Visa Diplomatik dan Dinas Kementerian Luar Negeri RI"
 },
-
 
 {
 kategori:"Layanan SDM",
@@ -165,7 +156,6 @@ dasar:
 "Peraturan BKN Nomor 24 Tahun 2017 jo. Peraturan BKN Nomor 7 Tahun 2021"
 },
 
-
 {
 kategori:"Layanan SDM",
 
@@ -180,7 +170,6 @@ jawaban:
 dasar:
 "Peraturan BKN Nomor 7 Tahun 2022 Pasal 9"
 },
-
 
 {
 kategori:"Layanan SDM",
@@ -197,7 +186,6 @@ dasar:
 "Peraturan BKN Nomor 7 Tahun 2022 Pasal 18 Ayat (2)"
 },
 
-
 {
 kategori:"Layanan SDM",
 
@@ -209,7 +197,6 @@ pertanyaan:
 jawaban:
 "Syarat update tunjangan KP4 adalah melampirkan Akte Nikah / Akte Kelahiran Anak, mengisi form KP4 melalui link yang telah disediakan. Setelah form diisi dan disubmit, form otomatis tercetak dalam bentuk PDF. Selanjutnya melampirkan Kartu Keluarga terbaru yang sudah ditandatangani pejabat berwenang. Setelah seluruh dokumen terpenuhi, PIC KP4 akan menghubungi PIC Biro Keuangan untuk proses update tunjangan KP4 pada bulan berikutnya."
 },
-
 
 {
 kategori:"Layanan SDM",
@@ -226,7 +213,6 @@ dasar:
 "SE Kepala BPKP HK.01.00 SE-4 Tahun 2025 tentang Mekanisme Izin LN BPKP"
 },
 
-
 {
 kategori:"Layanan SDM",
 
@@ -238,7 +224,6 @@ pertanyaan:
 jawaban:
 "Bapak/Ibu dapat menghubungi PIC Biro SDM dengan mengirimkan screenshot status data peserta pada aplikasi Mobile JKN. PIC Biro SDM akan berkoordinasi dengan PIC Biro Keuangan untuk memperoleh slip gaji terakhir sebagai dokumen kelengkapan pengaktifan kembali. Selanjutnya PIC Biro SDM akan mengirimkan form excel pengaktifan kembali beserta dokumen pendukung melalui email ke BPJS."
 },
-
 
 {
 kategori:"Layanan SDM",
@@ -255,7 +240,6 @@ dasar:
 "SE Kepala BPKP HK.01.00 SE-4 Tahun 2025 tentang Mekanisme Izin LN BPKP"
 },
 
-
 {
 kategori:"Layanan SDM",
 
@@ -270,7 +254,6 @@ jawaban:
 dasar:
 "Peraturan Presiden Nomor 64 Tahun 2020 dan Perdirjen Perbendaharaan Nomor PER-7/PB/2021"
 },
-
 
 {
 kategori:"Layanan SDM",
@@ -304,7 +287,9 @@ dasar:
 
 {
 kategori:"Layanan SDM",
+
 icon:"logo-sdm",
+
 pertanyaan:
 "Terkait pegawai yang barusan pulang CLTN di tahun 2025, apakah cutinya bisa menjadi 24 hari di tahun 2026?",
 
@@ -315,8 +300,21 @@ dasar:
 "Peraturan mengenai cuti PNS"
 },
 
-```
-```
+{
+  kategori:"Layanan SDM",
+  icon:"logo-sdm",
+  pertanyaan:"klo ada cpns 2025, sekarang lagi cuti belajar s2. Boleh gak misal mengajukan ibel buat s2 yang lagi berjalan itu?",
+  jawaban:"1. Pengakuan gelar untuk CPNS 25 yang sedang berkuliah ketika mendaftar CPNS hanya bisa diakui jika ijazah terbit paling lambat 1 tahun setelah SK PNS. Diluar itu tidak dapat diakui<br>2. Artinya harusnya (seperti yang berkali2 disampaikan di TOB), bahwa temen2 PNS 25 yang mendaftar CPNS itu dalam tahap tugas akhir, jadi pas proses CPNS cuti, setelah itu lanjut dan lulus, ijazah mengacu pada poin 1<br>3. Jika itu terpenuhi, maka diakuinya untuk baru 5 tahun setelah CPNS/4 tahun setelah PNS, Tidak bisa langsung diakui",
+  dasar:"Kebijakan Internal Unit Kerja / Perwakilan"
+},
+
+{
+  kategori:"Layanan SDM",
+  icon:"logo-sdm",
+  pertanyaan:"kaper yg sdh dilantik barusan ini , statusnya di unit awal sebagai Plt kah?",
+  jawaban:"Kaper baru menunjuk Plh. Kemudian kewenangnanya kira kira begini :<br>1. kewenangan diberikan sejak TMT pelantikan kaper baru.<br>2. kaper lama sudah tidak diberikan kewenangan utk ttd segala administrasi<br>3. kaper baru boleh menunjuk plh untuk mengurus administrasi selama masa transisi (misal utk ttd ST)",
+  dasar:"Kebijakan Internal Unit Kerja / Perwakilan"
+},
 
 
 /*
@@ -340,7 +338,6 @@ dasar:
 "Arahan Kebijakan Penugasan & Mutasi Pegawai"
 },
 
-
 {
 kategori:"Pengembangan Talenta & Karier",
 
@@ -355,7 +352,6 @@ jawaban:
 dasar:
 "Ketentuan Penyelarasan Angka Kredit Jabatan Fungsional"
 },
-
 
 {
 kategori:"Pengembangan Talenta & Karier",
@@ -372,7 +368,6 @@ dasar:
 "Peraturan BKN Nomor 5 Tahun 2023"
 },
 
-
 {
 kategori:"Pengembangan Talenta & Karier",
 
@@ -387,7 +382,6 @@ jawaban:
 dasar:
 "Ketentuan Kenaikan Pangkat & Jabatan Fungsional ASN"
 },
-
 
 {
 kategori:"Pengembangan Talenta & Karier",
@@ -404,7 +398,6 @@ dasar:
 "Peraturan Badan BPKP Nomor 3 Tahun 2024"
 },
 
-
 {
 kategori:"Pengembangan Talenta & Karier",
 
@@ -419,7 +412,6 @@ jawaban:
 dasar:
 "Peraturan Badan BPKP Nomor 3 Tahun 2024"
 },
-
 
 {
 kategori:"Pengembangan Talenta & Karier",
@@ -436,28 +428,12 @@ dasar:
 "Peraturan Badan BPKP Nomor 3 Tahun 2024"
 },
 
-{
-kategori:"Layanan SDM",
-icon:"logo-sdm",
-pertanyaan:
-"Terkait pegawai yang barusan pulang CLTN di tahun 2025, apakah cutinya bisa menjadi 24 hari di tahun 2026?",
-
-jawaban:
-"PNS yang telah selesai menjalankan CLTN dan telah diaktifkan kembali sebagai PNS baru dapat mengajukan cuti tahunan apabila telah bekerja secara terus-menerus paling singkat 1 tahun sejak diaktifkan kembali sebagai PNS. TMT dimulai dari tanggal SK pengaktifan kembali, bukan dari tanggal selesai CLTN dan bukan juga dari tanggal lapor diri. Kalau SK pengaktifan kembali misalnya TMT 1 Agustus 2025, yang bersangkutan belum boleh mengajukan cuti tahunan sama sekali sampai 1 Agustus 2026. Setelah itu barulah hak 12 hari (tahun berjalan 2026) berlaku.",
-
-dasar:
-"Peraturan mengenai cuti PNS"
-},
-
-```
-```
 
 /*
 =====================================================
 3. PENGEMBANGAN KOMPETENSI
 =====================================================
 */
-
 
 {
 kategori:"Pengembangan Kompetensi",
@@ -474,7 +450,6 @@ dasar:
 "Ketentuan Penyesuaian Jabatan Fungsional Pasca Tugas Belajar"
 },
 
-
 {
 kategori:"Pengembangan Kompetensi",
 
@@ -489,7 +464,6 @@ jawaban:
 dasar:
 "SOP Pelaksanaan Diklat / Sistem Aplikasi Bisma BPKP"
 },
-
 
 {
 kategori:"Pengembangan Kompetensi",
@@ -507,13 +481,11 @@ dasar:
 },
 
 
-
 /*
 =====================================================
 4. PENGHARGAAN & PENGAKUAN
 =====================================================
 */
-
 
 {
 kategori:"Penghargaan & Pengakuan",
@@ -529,7 +501,6 @@ jawaban:
 dasar:
 "Ketentuan Administrasi Pengajuan SKS Internal"
 },
-
 
 {
 kategori:"Penghargaan & Pengakuan",
@@ -547,13 +518,11 @@ dasar:
 },
 
 
-
 /*
 =====================================================
 5. PEMBERHENTIAN
 =====================================================
 */
-
 
 {
 kategori:"Pemberhentian",
@@ -565,10 +534,10 @@ pertanyaan:
 
 jawaban:
 "1. Asuransi Jasa Raharja dikelola oleh Biro Umum.<br><br>2. Jaminan Kecelakaan Kerja (JKK) PT Taspen dikelola oleh Bagian Pemberhentian (PIC Taspen: Rahmad Hidayat).",
+
 dasar:
 "Ketentuan Jaminan Kecelakaan Kerja (JKK) ASN & PT Taspen"
 },
-
 
 {
 kategori:"Pemberhentian",
@@ -584,4 +553,5 @@ jawaban:
 dasar:
 "PP Nomor 45 Tahun 1990 jo. PP Nomor 10 Tahun 1983"
 }
+
 ];
