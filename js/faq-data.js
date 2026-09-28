@@ -287,6 +287,38 @@ dasar:
 "Peraturan Presiden Nomor 64 Tahun 2020 dan Perdirjen Perbendaharaan Nomor PER-7/PB/2021"
 },
 
+{
+kategori:"Layanan SDM",
+
+icon:"logo-sdm",
+
+pertanyaan:
+"Di SE Nomor HK.01.00/SE-05/SU/02/2024 ada ketentuan ”PNS yang memiliki ijazah dengan jenjang pendidikan yang sama dan telah terbit pengakuan gelarnya dapat mengajukan pengakuan gelar untuk ijazah yang kedua dan seterusnya dalam jenjang yang sama.” Terkait ini, untuk gelar untuk ijazah yang kedua dan seterusnya apakah perlu melalui izin belajar/tugas belajar mandiri?",
+
+jawaban:
+"ketentuan untuk tubel dibiayai hanya 1 kali untuk jenjang pendidikan yang sama, ada kriteria waktu 1 thun dari ibel/tubel sebelumnya baru bisa mengajukan.",
+
+dasar:
+"Kebijakan Internal Unit Kerja / Perwakilan"
+},
+
+{
+kategori:"Layanan SDM",
+icon:"logo-sdm",
+pertanyaan:
+"Terkait pegawai yang barusan pulang CLTN di tahun 2025, apakah cutinya bisa menjadi 24 hari di tahun 2026?",
+
+jawaban:
+"PNS yang telah selesai menjalankan CLTN dan telah diaktifkan kembali sebagai PNS baru dapat mengajukan cuti tahunan apabila telah bekerja secara terus-menerus paling singkat 1 tahun sejak diaktifkan kembali sebagai PNS. TMT dimulai dari tanggal SK pengaktifan kembali, bukan dari tanggal selesai CLTN dan bukan juga dari tanggal lapor diri. Kalau SK pengaktifan kembali misalnya TMT 1 Agustus 2025, yang bersangkutan belum boleh mengajukan cuti tahunan sama sekali sampai 1 Agustus 2026. Setelah itu barulah hak 12 hari (tahun berjalan 2026) berlaku.",
+
+dasar:
+"Peraturan mengenai cuti PNS"
+},
+
+```
+```
+
+
 /*
 =====================================================
 2. PENGEMBANGAN TALENTA & KARIER
@@ -403,6 +435,22 @@ jawaban:
 dasar:
 "Peraturan Badan BPKP Nomor 3 Tahun 2024"
 },
+
+{
+kategori:"Layanan SDM",
+icon:"logo-sdm",
+pertanyaan:
+"Terkait pegawai yang barusan pulang CLTN di tahun 2025, apakah cutinya bisa menjadi 24 hari di tahun 2026?",
+
+jawaban:
+"PNS yang telah selesai menjalankan CLTN dan telah diaktifkan kembali sebagai PNS baru dapat mengajukan cuti tahunan apabila telah bekerja secara terus-menerus paling singkat 1 tahun sejak diaktifkan kembali sebagai PNS. TMT dimulai dari tanggal SK pengaktifan kembali, bukan dari tanggal selesai CLTN dan bukan juga dari tanggal lapor diri. Kalau SK pengaktifan kembali misalnya TMT 1 Agustus 2025, yang bersangkutan belum boleh mengajukan cuti tahunan sama sekali sampai 1 Agustus 2026. Setelah itu barulah hak 12 hari (tahun berjalan 2026) berlaku.",
+
+dasar:
+"Peraturan mengenai cuti PNS"
+},
+
+```
+```
 
 /*
 =====================================================
