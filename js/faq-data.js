@@ -303,7 +303,7 @@ dasar:
 {
   kategori:"Layanan SDM",
   icon:"logo-sdm",
-  pertanyaan:"klo ada cpns 2025, sekarang lagi cuti belajar s2. Boleh gak misal mengajukan ibel buat s2 yang lagi berjalan itu?",
+  pertanyaan:"Jika ada cpns 2025, sekarang lagi cuti belajar s2. Apakah boleh mengajukan ibel buat s2 yang lagi berjalan itu?",
   jawaban:"1. Pengakuan gelar untuk CPNS 25 yang sedang berkuliah ketika mendaftar CPNS hanya bisa diakui jika ijazah terbit paling lambat 1 tahun setelah SK PNS. Diluar itu tidak dapat diakui<br>2. Artinya harusnya (seperti yang berkali2 disampaikan di TOB), bahwa temen2 PNS 25 yang mendaftar CPNS itu dalam tahap tugas akhir, jadi pas proses CPNS cuti, setelah itu lanjut dan lulus, ijazah mengacu pada poin 1<br>3. Jika itu terpenuhi, maka diakuinya untuk baru 5 tahun setelah CPNS/4 tahun setelah PNS, Tidak bisa langsung diakui",
   dasar:"Kebijakan Internal Unit Kerja / Perwakilan"
 },
@@ -311,7 +311,7 @@ dasar:
 {
   kategori:"Layanan SDM",
   icon:"logo-sdm",
-  pertanyaan:"kaper yg sdh dilantik barusan ini , statusnya di unit awal sebagai Plt kah?",
+  pertanyaan:"kaper terbaru yang sudah di lantik, apakah statusnya di unit awal sebagai Plt?",
   jawaban:"Kaper baru menunjuk Plh. Kemudian kewenangnanya kira kira begini :<br>1. kewenangan diberikan sejak TMT pelantikan kaper baru.<br>2. kaper lama sudah tidak diberikan kewenangan utk ttd segala administrasi<br>3. kaper baru boleh menunjuk plh untuk mengurus administrasi selama masa transisi (misal utk ttd ST)",
   dasar:"Kebijakan Internal Unit Kerja / Perwakilan"
 },
